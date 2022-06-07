@@ -4,7 +4,7 @@ fun main() {
     val nomes = Array<String>(3){""}
     nomes[0] = "Maria"
     nomes[1] = "Joao"
-    nomes[2] = "zeca"
+    nomes[2] = "Zeca"
 
 //    for{nome in nomes}{
 //        println(nome)
