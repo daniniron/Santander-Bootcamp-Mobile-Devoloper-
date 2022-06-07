@@ -6,9 +6,9 @@ fun main() {
     nomes[1] = "Joao"
     nomes[2] = "Zeca"
 
-//    for{nome in nomes}{
-//        println(nome)
-//    }
+    for(nome in nomes){
+        println(nome)
+    }
 
     println("------------------------")
     nomes.sort()
