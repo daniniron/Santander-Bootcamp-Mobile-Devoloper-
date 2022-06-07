@@ -17,7 +17,7 @@ fun main() {
     println("-----")
 
     val salario2 = doubleArrayOf(1500.0, 1250.0, 5000.0)
-    salarios.sort()
+       salarios.sort()
     salario2.forEach { println(it) }
 
     println("-----")
