@@ -1,6 +1,12 @@
 # DIO's Git/Github Project Challenge repository
 
-Project Challenge on git/github - Bootcamp Santander Mobile 
+Project Challenge - Bootcamp Santander Mobile 
+
+App_simulador: app Android Nativo de simulacao de partidas. Este repositorio foi organizado em algumas branches que representaman implementacoes realizadas durante os seguintes  conteudo/videos:
+
+1. Desenvolvimento Mobile Nativo Para Android
+   - [release/desenvolvimento-mobile-nativo-para-android](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/desenvolvimento-mobile-nativo-para-android)
+ 
 
 <h4 align="center"> 
     :construction:  Project under construction  :construction:
