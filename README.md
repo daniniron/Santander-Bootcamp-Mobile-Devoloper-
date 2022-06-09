@@ -6,6 +6,9 @@ App_simulador: app Android Nativo de simulacao de partidas. Este repositorio foi
 
 1. Desenvolvimento Mobile Nativo Para Android
    - [release/desenvolvimento-mobile-nativo-para-android](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/desenvolvimento-mobile-nativo-para-android)
+
+2. Componentes, Layouts e UI/UX Em Apps Android
+   - [release/componentes-layouts-ui-ux-em-apps-android](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/componentes-layouts-ui-ux-em-apps-android)
  
 
 <h4 align="center"> 
