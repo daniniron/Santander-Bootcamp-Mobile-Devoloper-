@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -39,10 +40,18 @@ dependencies {
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
-    implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'com.google.android.material:material:1.6.1'
+
+    // Retrofit (HTTP Client): https://square.github.io/retrhttps://www.google.com/search?q=https%3A%2F%2Fwww.youtube.com%2Fembed%2FzhP_zs0Mg4A%3F&sxsrf=ALiCzsYa5VrthktPu1OeIzdC8526qigg2A%3A1655755820325&ei=LNSwYq--E7qa1sQPjqiV-AQ&ved=0ahUKEwivhIWM67z4AhU6jZUCHQ5UBU8Q4dUDCA4&uact=5&oq=https%3A%2F%2Fwww.youtube.com%2Fembed%2FzhP_zs0Mg4A%3F&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGABKBAhGGABQAFjpUGC2Yhttps://www.google.com/search?q=https%3A%2F%2Fwww.youtube.com%2Fembed%2FzhP_zs0Mg4A%3F&sxsrf=ALiCzsYa5VrthktPu1OeIzdC8526qigg2A%3A1655755820325&ei=LNSwYq--E7qa1sQPjqiV-AQ&ved=0ahUKEwivhIWM67z4AhU6jZUCHQ5UBU8Q4dUDCA4&uact=5&oq=https%3A%2F%2Fwww.youtube.com%2Fembed%2FzhP_zs0Mg4A%3F&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGABKBAhGGABQAFjpUGC2YmgAcAB4AIABjQGIAbIHkgEDMC44mAEAoAEBwAEB&sclient=gws-wizmgAcAB4AIABjQGIAbIHkgEDMC44mAEAoAEBwAEB&sclient=gws-wizofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    // Glide (Image Loading): https://github.com/bumptech/glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
     testImplementation 'junit:junit:4.13.2'
 
