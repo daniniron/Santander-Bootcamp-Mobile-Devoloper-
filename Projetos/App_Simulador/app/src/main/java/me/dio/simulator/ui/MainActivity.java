@@ -4,15 +4,15 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.snackbar.Snackbar;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
     private MatchesApi matchesApi;
-    private MatchesAdapter matchAdapter;
+    private MatchesAdapter matchAdapter = new MatchesAdapter(Collections.emptyList());
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         binding.rvMatches.setHasFixedSize(true);
         binding.rvMatches.setLayoutManager(new LinearLayoutManager(this));
+        binding.rvMatches.setAdapter(matchAdapter);
         findMetchesFromApi();
 
     }
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupFloatingActionButton(){
-        binding.fbsimulator.setOnClickListener(view -> {
+        binding.fabSimulate.setOnClickListener(view -> {
             view.animate().rotationBy(360).setDuration(500).setListener(new AnimatorListenerAdapter() {
                 @Override
                 public void onAnimationEnd(Animator animation) {
@@ -90,19 +91,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showErrorMessage() {
-        Snackbar.make(binding.fbsimulator, R.string.error_api, Snackbar.LENGTH_LONG).show();
+        Snackbar.make(binding.fabSimulate, R.string.error_api, Snackbar.LENGTH_LONG).show();
     }
 
     private void findMetchesFromApi() {
         binding.srlMatches.setRefreshing(true);
         matchesApi.getMatches().enqueue(new Callback<List<Match>>() {
             @Override
-            public void onResponse(Call<List<Match>> call, Response<List<Match>> response) {
+            public void onResponse(@NonNull Call<List<Match>> call, @NonNull Response<List<Match>> response) {
                 if(response.isSuccessful()){
                     List<Match> matches = response.body();
                     matchAdapter = new MatchesAdapter(matches);
                     binding.rvMatches.setAdapter(matchAdapter);
-                    Log.i("Simulator", "deu tudo certo! voltaram partidas" + matches.size());
+                    assert matches != null;
+                    Log.i("Simulator", "Deu tudo certo! voltaram partidas " + matches.size());
                 }else{
                     showErrorMessage();
                 }
@@ -110,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onFailure(Call<List<Match>> call, Throwable t) {
+            public void onFailure(@NonNull Call<List<Match>> call, @NonNull Throwable t) {
                 binding.srlMatches.setRefreshing(false);
                 showErrorMessage();
             }
