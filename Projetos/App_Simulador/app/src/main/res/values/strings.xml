@@ -7,4 +7,5 @@
 
     <string name="cd_simulate">Matches simulation button.</string>
     <string name="error_api">Unexpected error</string>
+    <string name="ButtonError">Button error</string>
 </resources>

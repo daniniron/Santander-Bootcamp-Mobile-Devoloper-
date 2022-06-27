@@ -44,10 +44,13 @@ public class MainActivity extends AppCompatActivity {
         setupMatchesList();
         setupMatchesRefresh();
         setupFloatingActionButton();
+        //setupFloatingActionButtonError();
+
 
     }
 
-    private void setupHttpClient(){
+
+    private void setupHttpClient() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://daniniron.github.io/matches-simulador-api/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -55,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         matchesApi = retrofit.create(MatchesApi.class);
     }
 
-    private void setupMatchesList(){
+    private void setupMatchesList() {
 
         binding.rvMatches.setHasFixedSize(true);
         binding.rvMatches.setLayoutManager(new LinearLayoutManager(this));
@@ -65,23 +68,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-    private void setupMatchesRefresh(){
+    private void setupMatchesRefresh() {
         binding.srlMatches.setOnRefreshListener(this::findMetchesFromApi);
 
 
     }
 
-    private void setupFloatingActionButton(){
+    private void setupFloatingActionButton() {
         binding.fabSimulate.setOnClickListener(view -> {
             view.animate().rotationBy(360).setDuration(500).setListener(new AnimatorListenerAdapter() {
                 @Override
                 public void onAnimationEnd(Animator animation) {
-                     Random random = new Random();
-                    for(int i= 0; i < matchAdapter.getItemCount(); i++){
+                    Random random = new Random();
+                    for (int i = 0; i < matchAdapter.getItemCount(); i++) {
                         Match match = matchAdapter.getMatches().get(i);
-                        match.getHomeTeam().setScore(random.nextInt(match.getHomeTeam().getStars()+1));
-                        match.getAwayTeam().setScore(random.nextInt(match.getAwayTeam().getStars()+1));
+                        match.getHomeTeam().setScore(random.nextInt(match.getHomeTeam().getStars() + 1));
+                        match.getAwayTeam().setScore(random.nextInt(match.getAwayTeam().getStars() + 1));
                         matchAdapter.notifyItemChanged(i);
                     }
 
@@ -99,13 +101,13 @@ public class MainActivity extends AppCompatActivity {
         matchesApi.getMatches().enqueue(new Callback<List<Match>>() {
             @Override
             public void onResponse(@NonNull Call<List<Match>> call, @NonNull Response<List<Match>> response) {
-                if(response.isSuccessful()){
+                if (response.isSuccessful()) {
                     List<Match> matches = response.body();
                     matchAdapter = new MatchesAdapter(matches);
                     binding.rvMatches.setAdapter(matchAdapter);
                     assert matches != null;
                     Log.i("Simulator", "Deu tudo certo! voltaram partidas " + matches.size());
-                }else{
+                } else {
                     showErrorMessage();
                 }
                 binding.srlMatches.setRefreshing(false);
@@ -118,4 +120,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+//    private void setupFloatingActionButtonError() {
+//        binding.fabError.setOnClickListener(view -> {
+//            throw new RuntimeException("Test Crash");
+//        });
+//    }
+
 }
