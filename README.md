@@ -17,7 +17,7 @@ App_simulador: app Android Nativo de simulacao de partidas. Este repositorio foi
    - [release/explorando-o-firebase-para-apps-android-resilientes](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/explorando-o-firebase-para-apps-android-resilientes)
 
 <h4 align="center"> 
-    :construction:  Project under construction  :construction:
+    :construction:   Project under construction  :construction:
 </h4>
 
 
