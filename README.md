@@ -12,6 +12,9 @@ App_simulador: app Android Nativo de simulacao de partidas. Este repositorio foi
  
 3. Java e Kotlin Juntos!? Construindo Apps Android
    - [release/java-e-kotlin-juntos-construindo-apps-android](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/elease/java-e-kotlin-juntos-construindo-apps-android)
+   
+4. Explorando o Firebase Para Apps Android Resilientes
+   - [release/explorando-o-firebase-para-apps-android-resilientes](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/explorando-o-firebase-para-apps-android-resilientes)
 
 <h4 align="center"> 
     :construction:  Project under construction  :construction:
