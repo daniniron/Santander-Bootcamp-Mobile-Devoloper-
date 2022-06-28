@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupHttpClient() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://daniniron.github.io/matches-simulador-api/")
+                .baseUrl("https://daniniron.github.io/APIs-Android/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         matchesApi = retrofit.create(MatchesApi.class);
