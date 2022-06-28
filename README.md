@@ -47,3 +47,11 @@ App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi or
 [Markdown](https://[www.markdownguide.org/basic-syntax/)
 
 [Como criar um bom Redme](https://www.alura.com.br/artigos/escrever-bom-readme)
+
+[Retrofit](https://square.github.io/retrofit/)
+
+[Picasso](https://square.github.io/picasso/)
+
+[Android Developer Roadmap](https://github.com/skydoves/android-developer-roadmap)
+
+[Nelson Glauber](https://nglauber.medium.com/)
