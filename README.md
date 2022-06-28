@@ -23,7 +23,7 @@ Project Challenge - Bootcamp Santander Mobile
 App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi organizado em algumas branches que representam as implementações realizadas durante os seguintes conteúdos/vídeos:
 
 1. Android Jetpack e Material Design: Criando Apps Nativos Poderosos
-    - [release/android-jetpack-material-design-criando-apps-nativos-poderosos](https://github.com/digitalinnovationone/soccer-news-app/tree/release/android-jetpack-material-design-criando-apps-nativos-poderosos)
+    - [release/android-jetpack-material-design-criando-apps-nativos-poderosos](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/android-jetpack-material-design-criando-apps-nativos-poderosos/Projetos/SoccerNews)
 
 <h4 align="center"> 
     :construction:  Project under construction  :construction:
