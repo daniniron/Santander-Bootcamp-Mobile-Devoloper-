@@ -25,6 +25,9 @@ App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi or
 1. Android Jetpack e Material Design: Criando Apps Nativos Poderosos
     - [release/android-jetpack-material-design-criando-apps-nativos-poderosos](https://github.com/digitalinnovationone/soccer-news-app/tree/release/android-jetpack-material-design-criando-apps-nativos-poderosos)
 
+1. Abstraindo o Domínio de Apps Android Nativos com Java(
+    - [release/abstraindo-dominio-de-apps-android-nativos-com-java](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/abstraindo-dominio-de-apps-android-nativos-com-java)
+
 <h4 align="center"> 
     :construction:  Project under construction  :construction:
 </h4>
@@ -33,7 +36,10 @@ App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi or
    API (provida via GitHub Pages) para os APPs consumirem
 
 1.https://github.com/daniniron/APIs-Android 
-   - [.json](https://daniniron.github.io/APIs-Android/)
+   - [matches.json](https://daniniron.github.io/APIs-Android/matches.json])
+   - [news.json](https://daniniron.github.io/APIs-Android/news.json)
+   
+   
 
 ### Links
 [DIO](https://www.dio.me/)
