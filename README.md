@@ -2,7 +2,7 @@
 
 Project Challenge - Bootcamp Santander Mobile 
 
-# Simulator App
+## Simulator App
 
 [Projetos/App_simulador](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/main/Projetos/App_Simulador): app Android Nativo de simulacao de partidas. Este repositorio foi organizado em algumas branches que representaman implementacoes realizadas durante os seguintes  conteudo/videos:
 
@@ -18,7 +18,7 @@ Project Challenge - Bootcamp Santander Mobile
 4. Explorando o Firebase Para Apps Android Resilientes
    - [release/explorando-o-firebase-para-apps-android-resilientes](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/explorando-o-firebase-para-apps-android-resilientes)
    
-# Soccer News App
+## Soccer News App
 
 App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi organizado em algumas branches que representam as implementações realizadas durante os seguintes conteúdos/vídeos:
 
@@ -29,8 +29,13 @@ App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi or
     :construction:  Project under construction  :construction:
 </h4>
 
+## APIs-Android
+   API (provida via GitHub Pages) para os APPs consumirem
 
-## links
+1.https://github.com/daniniron/APIs-Android 
+   - [.json](https://daniniron.github.io/APIs-Android/)
+
+### Links
 [DIO](https://www.dio.me/)
 
 [Markdown](https://[www.markdownguide.org/basic-syntax/)
