@@ -6,11 +6,6 @@ public class News {
     private String image;
     private String link;
 
-    public News(String title, String description) {
-        this.title = title;
-        this.description = description;
-    }
-
     public String getTitle() {
         return title;
     }
