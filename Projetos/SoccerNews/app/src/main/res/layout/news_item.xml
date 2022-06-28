@@ -69,6 +69,7 @@
             android:contentDescription="@string/cd_favorite_icon"
             android:focusable="true"
             android:padding="4dp"
+
             app:layout_constraintBottom_toBottomOf="@+id/btOpenLink"
             app:layout_constraintEnd_toStartOf="@+id/ivShare"
             app:layout_constraintTop_toTopOf="@+id/btOpenLink"
