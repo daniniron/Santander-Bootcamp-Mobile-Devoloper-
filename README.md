@@ -36,7 +36,7 @@ App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi or
    API (provida via GitHub Pages) para os APPs consumirem
 
 1.https://github.com/daniniron/APIs-Android 
-   - [matches.json](https://daniniron.github.io/APIs-Android/matches.json])
+   - [matches.json](https://daniniron.github.io/APIs-Android/matches.json)
    - [news.json](https://daniniron.github.io/APIs-Android/news.json)
    
    
