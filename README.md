@@ -1,4 +1,4 @@
-# DIO's Git/Github Project Challenge repository
+# DIO Git/Github Project Challenge repository
 
 Project Challenge - Bootcamp Santander Mobile 
 
@@ -9,13 +9,13 @@ Project Challenge - Bootcamp Santander Mobile
 1. Desenvolvimento Mobile Nativo Para Android
    - [release/desenvolvimento-mobile-nativo-para-android](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/desenvolvimento-mobile-nativo-para-android)
 
-2. Componentes, Layouts e UI/UX Em Apps Android
+1. Componentes, Layouts e UI/UX Em Apps Android
    - [release/componentes-layouts-ui-ux-em-apps-android](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/componentes-layouts-ui-ux-em-apps-android)
  
-3. Java e Kotlin Juntos!? Construindo Apps Android
+1. Java e Kotlin Juntos!? Construindo Apps Android
    - [release/java-e-kotlin-juntos-construindo-apps-android](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/elease/java-e-kotlin-juntos-construindo-apps-android)
    
-4. Explorando o Firebase Para Apps Android Resilientes
+1. Explorando o Firebase Para Apps Android Resilientes
    - [release/explorando-o-firebase-para-apps-android-resilientes](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/explorando-o-firebase-para-apps-android-resilientes)
    
 ## Soccer News App
@@ -23,10 +23,14 @@ Project Challenge - Bootcamp Santander Mobile
 App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi organizado em algumas branches que representam as implementações realizadas durante os seguintes conteúdos/vídeos:
 
 1. Android Jetpack e Material Design: Criando Apps Nativos Poderosos
-    - [release/android-jetpack-material-design-criando-apps-nativos-poderosos](https://github.com/digitalinnovationone/soccer-news-app/tree/release/android-jetpack-material-design-criando-apps-nativos-poderosos)
+    - [release/android-jetpack-material-design-criando-apps-nativos-poderosos](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/android-jetpack-material-design-criando-apps-nativos-poderosos)
 
 1. Abstraindo o Domínio de Apps Android Nativos com Java(
     - [release/abstraindo-dominio-de-apps-android-nativos-com-java](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/abstraindo-dominio-de-apps-android-nativos-com-java)
+
+1. Consumo de APIs e Persistência de Dados Locais em Apps Android
+    - [release/consumo-de-apis-e-persistencia-de-dados-locais](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/consumo-de-apis-e-persistencia-de-dados-locais))
+
 
 <h4 align="center"> 
     :construction:  Project under construction  :construction:
