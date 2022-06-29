@@ -4,7 +4,7 @@ Project Challenge - Bootcamp Santander Mobile
 
 ## Simulator App
 
-[Projetos/App_simulador](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/main/Projetos/App_Simulador): app Android Nativo de simulacao de partidas. Este repositorio foi organizado em algumas branches que representaman implementacoes realizadas durante os seguintes  conteudo/videos:
+[Projetos/App_Simulador](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/main/Projetos/App_Simulador): App Android Nativo de simulacao de partidas. Este repositorio foi organizado em algumas branches que representaman implementacoes realizadas durante os seguintes  conteudo/videos:
 
 1. Desenvolvimento Mobile Nativo Para Android
    - [release/desenvolvimento-mobile-nativo-para-android](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/desenvolvimento-mobile-nativo-para-android)
@@ -20,7 +20,7 @@ Project Challenge - Bootcamp Santander Mobile
    
 ## Soccer News App
 
-App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi organizado em algumas branches que representam as implementações realizadas durante os seguintes conteúdos/vídeos:
+[Projetos/SoccerNews](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/main/Projetos/SoccerNews): App Nativo Android de Notícias Sobre Futebol Feminino. Este repositório foi organizado em algumas branches que representam as implementações realizadas durante os seguintes conteúdos/vídeos:
 
 1. Android Jetpack e Material Design: Criando Apps Nativos Poderosos
     - [release/android-jetpack-material-design-criando-apps-nativos-poderosos](https://github.com/daniniron/Santander-Bootcamp-Mobile-Devoloper-/tree/release/android-jetpack-material-design-criando-apps-nativos-poderosos)
