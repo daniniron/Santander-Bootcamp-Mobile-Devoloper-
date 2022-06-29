@@ -1,20 +1,18 @@
 package com.alphalevi.soccernews.ui.adapter;
 
-import com.alphalevi.soccernews.R;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.alphalevi.soccernews.R;
 import com.alphalevi.soccernews.databinding.NewsItemBinding;
 import com.alphalevi.soccernews.domain.News;
 import com.squareup.picasso.Picasso;
-
 
 import java.util.List;
 
