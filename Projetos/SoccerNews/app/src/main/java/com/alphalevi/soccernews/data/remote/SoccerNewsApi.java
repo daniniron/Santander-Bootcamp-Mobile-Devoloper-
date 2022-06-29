@@ -1,4 +1,4 @@
-package com.alphalevi.soccernews.data_remote;
+package com.alphalevi.soccernews.data.remote;
 
 import com.alphalevi.soccernews.domain.News;
 
