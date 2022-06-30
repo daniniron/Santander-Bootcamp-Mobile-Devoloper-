@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "116314477353",
+    "project_id": "soccernews-b573a",
+    "storage_bucket": "soccernews-b573a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116314477353:android:106e8dd4954d2126371d38",
+        "android_client_info": {
+          "package_name": "com.alphalevi.soccernews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116314477353-trndo761mm3g2fca9rpgs3pebi9hp7eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfbbl8Ofe0-EJebwsQ396jaTI_wkZFdMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116314477353-trndo761mm3g2fca9rpgs3pebi9hp7eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
